@@ -48,3 +48,4 @@ class IngestionTask(BaseModel):
     document_id: int
     status: str = "pending" # pending, processing, completed, failed
     message: Optional[str] = None
+# Roo temp change 7
